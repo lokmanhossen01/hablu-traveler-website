@@ -21,11 +21,11 @@
                 </div>
 
                 <ul>
-                    <li><a href="" id="home">Home</a></li>
-                    <li><a href="">Packages</a></li>
-                    <li><a href="">Testimonial</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#" id="home">Home</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
             <!-- nav bar ends here -->
@@ -39,9 +39,9 @@
 
                 <div>
                     <form action="">
-                        <input type="text" placeholder="Where go"> 
-                        <input type="text" placeholder="When">
-                        <input type="text" placeholder="Select Type">
+                        <input class="banner-inputBox" type="text" placeholder="Where go" required> 
+                        <input class="banner-inputBox" type="text" placeholder="When" required>
+                        <input class="banner-inputBox" type="text" placeholder="Select Type" required>
                         <button class="common-btn">Find Now</button>
 
                     </form>
@@ -57,15 +57,17 @@
                 <div class="popular-tour-section-content">
                     <h3 class="common-title popular-tour-section-title">Our Popular Tours</h3>
 
-                    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+                    <p class="common-paragraph">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
 
-                    <ul>
-                        <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
-                        <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
-                        <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
-                    </ul>
+                    <div class="common-paragraph">
+                        <ul>
+                            <li>Tempus euismod lacus mauris dignissim quis in ultrices.  Magna nullam odio neque diam. Sociis erat at .</li>
+                            <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus.  Lectus suspendisse nullam.</li>
+                            <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+                        </ul>
+                    </div>
 
-                    <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
+                    <p class="common-paragraph">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
 
                     <button class="common-btn">Read More...</button>
                 </div>
@@ -81,8 +83,8 @@
 
             <div class="destinationSection">
                 <div class="destinationSection-content">
-                    <h3 class="common-title ">Choose Your Destination</h3>
-                    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+                    <h3 class="common-title">Choose Your Destination</h3>
+                    <p class="common-paragraph" style="margin-bottom: 30px; margin-top: 15px;">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
                 </div>
                 <div class="destinationSection-img">
                     <div class="row">
@@ -106,7 +108,7 @@
             <div class="power-section">
                 <div class="power-section-content">
                     <h3 class="common-title">Why Choose Us</h3>
-                    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+                    <p class="common-paragraph" style="text-align: center;">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
                 </div>
                 <div class="power-section-card">
                     <div class="power-section-card-row">
@@ -132,12 +134,52 @@
                 </div>
             </div>
 
-            
+            <!-- Newsletter Section Start -->
+            <div class="newsletter-section">
+                <div class="newsletter-form">
+                    <h3 class="newsletter-form-title">Newsletter</h3>
+                    <p class="newsletter-form-description">Get your daily dose of travel news & tips. Sign up today!</p>
+
+                    <form class="inputBtn" action="">
+                        <input type="text" class="input" placeholder="Enter Your Name"> <br>
+                        <input type="email" placeholder="Enter your email" class="input" name="" id=""> <br>
+                        <button class="SubscribeBtn">Subscribe</button>
+                    </form>
+                </div>
+
+                <div class="newsletter-image-gallery">
+                    <div class="newsletter-image">
+                        <img src="./images/newsletter-image.png" alt="">
+                    </div>
+
+                    <!-- <div class="newsletter-image-overlap">
+                        <h3>Travel.com</h3>
+                        <h2>Save up to 70%</h2>
+                    </div> -->
+                </div>
+            </div>
         </main>
     </div>
 
-    <footer>
+    <!-- footer section start -->
+    <footer class="footer">
+        <div class="footerElement">
+            <div class="navLogo">
+                <img src="./images/navLogo.png" alt="">
+                <h3>Hero <span class="style-Travel">Travel</span></h3>
+            </div>
 
+            <p class="common-paragraph">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+
+            <div class="social-links">
+                <a href=""><img src="images/social-icon/Twitter.png" alt=""></a>
+                <a href=""><img src="images/social-icon/Facebook.png" alt=""></a>
+                <a href=""><img src="images/social-icon/Instagram.png" alt=""></a>
+                <a href=""><img  src="images/social-icon/Linkedin.png" alt=""></a>
+            </div>
+
+            <p class="copyright">&copy; 2017, All Rights Reserved</p>
+        </div>
     </footer>
 </body>
 </html>
