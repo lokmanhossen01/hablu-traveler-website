@@ -1,0 +1,105 @@
+/* common shared styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+/* Menubar or NavBar  Styles */
+.navBar-container {
+    border: 2px solid red;
+    /* min-height: 400px; */
+}
+.navLogo {
+    display: flex;
+}
+
+.navLogo img {
+    width: 48px;
+}
+
+.navLogo p {
+    font-size: 3rem;
+}
+
+.style-Travel {
+    color: #FF5400;
+    font-family: Mulish;
+    font-weight: 800;
+}
+
+.common-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 10px;
+    
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    outline: none;
+}
+
+
+/* banner section styles */
+
+
+header .banner {
+    border-radius: 1rem;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/banner-image.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+  }
+
+
+.banner-title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0px;
+}
+
+
+/* Popular Tour Section Start */
+.popular-tour-section {
+    display: flex;
+    gap: 100px;
+    margin-top: 130px;
+}
+
+.popular-tour-section-content {
+    width: 50%;
+    
+}
+
+.popular-tour-section-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
