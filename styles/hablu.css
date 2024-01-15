@@ -7,33 +7,10 @@
 
 .container {
     width: 90%;
-    margin: 0 auto;
+    margin: auto;
   }
 
-/* Menubar or NavBar  Styles */
-.navBar-container {
-    border: 2px solid red;
-    /* min-height: 400px; */
-}
-.navLogo {
-    display: flex;
-}
-
-.navLogo img {
-    width: 48px;
-}
-
-.navLogo p {
-    font-size: 3rem;
-}
-
-.style-Travel {
-    color: #FF5400;
-    font-family: Mulish;
-    font-weight: 800;
-}
-
-.common-btn {
+  .common-btn {
     border-radius: 8px;
     background: #FF5400;
     padding: 10px;
@@ -46,6 +23,81 @@
     font-weight: 800;
     outline: none;
 }
+
+.common-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* Menubar or NavBar  Styles */
+.navBar-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    
+    
+}
+
+
+.navLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navLogo img {
+    width: 48px;
+    margin-right: 20px;
+}
+
+.navLogo h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.navLogo p {
+    font-size: 3rem;
+}
+
+.style-Travel {
+    color: #FF5400;
+    font-family: Mulish;
+    font-weight: 800;
+}
+
+nav > ul {
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 44px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424247;
+}
+
+#home {
+    color: #FF5400;
+}
+
+
 
 
 /* banner section styles */
@@ -63,7 +115,7 @@ header .banner {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 130px;
+    margin-top: 80px;
   }
 
 
@@ -92,14 +144,93 @@ header .banner {
 }
 
 .popular-tour-section-content {
-    width: 50%;
     
 }
 
-.popular-tour-section-title {
-    color: #131318;
+
+/* Destination Section with Grid added Image Styles */
+.destinationSection {
+    margin-top: 60px;
     text-align: center;
-    font-family: Mulish;
-    font-size: 40px;
-    font-weight: 800;
 }
+
+.row {
+   height: 300px;
+   display: flex;
+   gap: 10px;
+   margin-bottom: 10px;
+   
+}
+
+
+.row img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Power Section Styles */
+.power-section-card {
+    
+}
+
+
+.power-section-card-row {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin: 30px 0px;
+}
+
+
+.card-01 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-right: 15px;
+    padding: 25px;
+}
+
+.card-02 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 25px;
+}
+
+.power-section-card-row h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.power-section-card-row p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.power-section-card-row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-03 {
+    border: 2px solid tomato;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    height: 300px;
+    width: 50%;
+    padding: 25px;
+
+}
+
+
+
